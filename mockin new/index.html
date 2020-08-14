@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<title>Mockin</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top" id="top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="#"></i> ABOUT</a>
+            <a href="#courses" class="w3-bar-item w3-button w3-hide-small"><i class="#"></i> COURSES</a>
+            <a href="#testimonial" class="w3-bar-item w3-button w3-hide-small"><i class="#"></i> TESTIMONIAL</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="#"></i> CONTACT</a>
+            <img class="logo w3-right" src="mockin.png" alt="Mockin">
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#courses" class="w3-bar-item w3-button" onclick="toggleFunction()">COURSES</a>
+            <a href="#testimonial" class="w3-bar-item w3-button" onclick="toggleFunction()">TESTIMONIAL</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <section class="top" id="top">
+        <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+
+        </div>
+    </section>
+
+    <!-- Container (About Section) -->
+    <section class="about" id="about">
+        <div class="w3-container w3-padding-60" id="about">
+
+
+            <body>
+                <div style="width: 800px; float:left; height:500px; background:gray; margin:50px">
+                    First DIV
+                </div>
+                <div style="width: 800px; float:right; height:500px; background:yellow; margin:50px">
+                    Second DIV
+                </div>
+
+        </div>
+    </section>
+
+    <section class="courses" id="courses">
+        <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">1000+</span><br> Experts
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">55+</span><br> Still Learning
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">89+</span><br> Happy Students
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">15+</span><br> Meetings
+            </div>
+        </div>
+
+        <!-- Second Parallax Image with Courses Text -->
+        <div class="bgimg-2 w3-display-container w3-opacity-min" id="courses">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-white w3-wide">COURSES</span>
+            </div>
+        </div>
+
+        <!-- Container (Courses Section) -->
+        <div class="droper w3-content w3-container w3-padding-64">
+
+            <div class="dropdown1">
+                <img src="back3.jpeg" alt="Cinque Terre" width="300" height="50">
+                <div class="dropdown-content">
+                    <img src="back4.jpeg" alt="Cinque Terre" width="300" height="200">
+                    <div class="desc">Text here</div>
+                </div>
+            </div>
+
+
+            <div class="dropdown2">
+                <img src="back3.jpeg" alt="Cinque Terre" width="300" height="50">
+                <div class="dropdown-content">
+                    <img src="back4.jpeg" alt="Cinque Terre" width="300" height="200">
+                    <div class="desc">Text here</div>
+                </div>
+            </div>
+
+
+            <div class="dropdown3">
+                <img src="back3.jpeg" alt="Cinque Terre" width="300" height="50">
+                <div class="dropdown-content">
+                    <img src="back4.jpeg" alt="Cinque Terre" width="300" height="200">
+                    <div class="desc">Text here</div>
+                </div>
+            </div>
+
+
+            <div class="dropdown4">
+                <img src="back3.jpeg" alt="Cinque Terre" width="300" height="50">
+                <div class="dropdown-content">
+                    <img src="back4.jpeg" alt="Cinque Terre" width="300" height="200">
+                    <div class="desc">Text here</div>
+                </div>
+            </div>
+
+
+            <div class="dropdown5">
+                <img src="back3.jpeg" alt="Cinque Terre" width="300" height="50">
+                <div class="dropdown-content">
+                    <img src="back4.jpeg" alt="Cinque Terre" width="300" height="200">
+                    <div class="desc">Text here</div>
+                </div>
+            </div>
+
+            <div class="dropdown6">
+                <img src="back3.jpeg" alt="Cinque Terre" width="300" height="50">
+                <div class="dropdown-content">
+                    <img src="back4.jpeg" alt="Cinque Terre" width="300" height="200">
+                    <div class="desc">Text here</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Modal for full size images on click-->
+
+    <section class="testimonial" id="testimonial">
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
+            </div>
+        </div>
+
+        <!-- Third Parallax Image with Testimonial Text -->
+        <div class="bgimg-3 w3-display-container w3-opacity-min" id="testimonial">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-white w3-wide">TESTIMONIAL</span>
+            </div>
+        </div>
+
+        <p class="w3-center">some text here</p>
+
+
+        <div class="w3-content w3-section" style="max-width:500px">
+
+
+            <img class="mySlides w3-animate-fading" src="back1.jpeg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="back2.jpeg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="back3.jpeg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="back4.jpeg" style="width:100%">
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Container (Contact Section) -->
+    <section class="contact" id="contact">
+        <div class="w3-container w3-padding-64" id="contact">
+            <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+            <div class="w3-container w3-padding-60" id="about">
+
+
+                <div class="first" style="width: 800px; float:left; height:500px; background:gray; margin:50px">
+                    First DIV
+                </div>
+                <div class="second" style="width: 800px; float:right; height:500px; background:yellow; margin:50px">
+                    Second DIV
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-yellow w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p>Copyright © 2020 <a href="https://www.mockin.in" title="mockin.in" target="_blank" class=" bottom w3-hover-text-white"> mockin </a> All Right Reserved</p>
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Change style of navbar on scroll
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 9000);
+        }
+    </script>
+
+    </body>
+
+</html>
